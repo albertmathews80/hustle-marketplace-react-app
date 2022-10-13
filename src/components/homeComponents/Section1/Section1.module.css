@@ -1,0 +1,100 @@
+.container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  margin: 0 auto;
+}
+.wrap {
+  width: inherit;
+  max-width: 700px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.wrap p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.wrap h1 {
+  color: #ffffff;
+  font-size: 2.9rem;
+  line-height: 1.8;
+}
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selectBtn {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  padding: 16px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.selectBtn span {
+  margin-right: 8px;
+}
+.searchBar {
+  background: #ffffff;
+  color: #333;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-left: 20px;
+  width: 70%;
+}
+.searchBar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0 20px;
+}
+.searchBar span {
+  background-color: black;
+  padding: 10px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btnCollection {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.btnCollection span {
+  font-size: 12px;
+  font-weight: 600;
+}
+.btnCollection button {
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  padding: 9px 15px;
+  font-size: 10px;
+  font-weight: 600;
+}
+.btnCollection button:hover {
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+}

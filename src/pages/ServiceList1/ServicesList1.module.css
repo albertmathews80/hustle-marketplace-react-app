@@ -1,0 +1,84 @@
+.container {
+  margin-top: 45px;
+}
+
+.containerWrap {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.dateTimeContainer1 {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.dateTimeContainer2 {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.dateTimeContainer1 > div {
+  border: 1px solid #757575;
+  color: #757575;
+  font-size: 11px;
+  padding: 3px 25px;
+  border-radius: 5px;
+}
+
+.dateTimeContainer2 > div {
+  border: 1px solid #757575;
+  color: #757575;
+  font-size: 11px;
+  padding: 3px 25px;
+  border-radius: 5px;
+}
+
+.dateTimeContainer1 > div:nth-child(2) {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dateTimeContainer2 > div:last-child {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.containerWrap h2 {
+  font-size: 14px;
+}
+
+.containerWrap > button {
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 4px 12px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.btnContainer > button {
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 6px;
+  margin-left: 12px;
+  background-color: black;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+.btnContainer > button:first-child {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 500;
+  border: 1px solid #000000;
+  cursor: pointer;
+}

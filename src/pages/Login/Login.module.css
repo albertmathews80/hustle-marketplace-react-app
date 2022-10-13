@@ -1,0 +1,108 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.cardContainer {
+  height: 100%;
+  margin: 30px 0;
+}
+.cardWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+.cards > h3 {
+  font-size: 20px;
+  text-align: center;
+}
+.cards > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cards > form > .form_control {
+  margin-bottom: 0;
+}
+.cards > form > .form_control > label {
+  font-size: 12px;
+}
+.cards > form > .form_control > input {
+  border-radius: 3px;
+  font-size: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.cards > form > .login_btn {
+  width: 100%;
+  margin-bottom: 0;
+}
+.cards > form > .login_btn > button {
+  width: inherit;
+  margin: 0;
+  color: #ffffff;
+  background-color: black;
+  font-size: 12px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  border: none;
+  transition: 0.4s all;
+}
+.cards > form > .login_btn > button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+.remember_forgot_password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remember_forgot_password a,
+.remember_forgot_password label {
+  font-size: 11px;
+}
+.remember_forgot_password a {
+  text-decoration: none;
+  color: grey;
+  text-align: right;
+}
+.remember_forgot_password a:hover {
+  text-decoration: underline;
+}
+.remember_forgot_password > div {
+  display: flex;
+  align-items: center;
+}
+.remember_forgot_password > div > input {
+  width: 15px;
+}
+.remember_forgot_password > div > label {
+  color: grey;
+  padding-left: 5px;
+}
+.remember_forgot_password > div > label:hover {
+  cursor: pointer;
+}
+.register {
+  display: flex;
+}
+.register > p {
+  font-size: 11px;
+  color: grey;
+  text-align: center;
+}
+.register > a {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #000000;
+}

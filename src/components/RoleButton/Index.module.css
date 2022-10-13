@@ -1,0 +1,47 @@
+ .roleFlex{
+    border: 1px solid red;
+    display: flex;
+ }
+ 
+ .role_btn {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .role_btn > .btn {
+    font-size: 12px;
+    border: 1px solid black;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+ .role_btn > .btn > img {
+    margin-right: 10px;
+    height: 100%;
+  }
+  
+  .role_btn > .btn > p {
+    flex-direction: column;
+    color: grey;
+    font-size: 70%;
+    align-items: center;
+  }
+/*   
+  .active_btn {
+    color: #ffffff;
+    background-color: #000000;
+  } */
+  
+.role_btn > .btn > .text {
+    margin-left: 10px;
+  }
+
+  .role_btn > .btn > .text > p {
+    font-size: 90%;
+  }
+  

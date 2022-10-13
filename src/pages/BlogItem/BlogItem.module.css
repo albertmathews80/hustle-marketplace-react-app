@@ -1,0 +1,285 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.blogContainer {
+  margin: 50px auto;
+}
+
+.blogImageContainer > img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.blogContainer > .text1 {
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 30px 0;
+}
+
+.blogContainer > .headingQuotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.blogContainer > .quotesContainer {
+  margin: 50px auto;
+}
+
+.blogContainer > .quotesContainer > h2 {
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+}
+
+.quotesContainer > p {
+  text-align: justify;
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 50px auto;
+}
+
+.innerBlog {
+  display: flex;
+}
+
+.innerBlog > .innerBlogPara {
+  font-size: 12px;
+  text-align: justify;
+  line-height: 2;
+  padding-left: 70px;
+}
+
+.innerBlogPara2 {
+  font-size: 12px;
+  text-align: justify;
+  line-height: 2;
+  margin: 30px 0;
+}
+
+.iconContainer {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.shareContainer {
+  display: flex;
+  align-items: center;
+}
+
+.shareContainer > span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.shareContainer > .socialIcon {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.socialIcon > img {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.tagsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.tagsContainer > span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tagsContainer > .btnContainer {
+  display: flex;
+  align-items: center;
+}
+
+.btnContainer > button {
+  border: 1px solid #757575;
+  outline: none;
+  color: #757575;
+  font-size: 11px;
+  background: transparent;
+  padding: 4px 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.btnContainer > button:hover {
+  color: #ffffff;
+  background: #000000;
+  border: 1px solid #ffffff;
+}
+
+.heading {
+  height: 50px;
+  border-bottom: 3px solid #d9d9d9;
+}
+
+.heading > h1 {
+  display: inline-block;
+  border-bottom: 3px solid #000000;
+  font-weight: 500;
+}
+
+.cardWrap {
+  display: flex;
+  margin: 2.5rem auto;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 18.75rem;
+  height: 22.125rem;
+  border-radius: 0.913rem;
+  box-shadow: 0 0.346rem 0.346rem rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 0.346rem 0.346rem rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0.346rem 0.346rem rgba(0, 0, 0, 0.25);
+}
+
+.cards > .cardImage {
+  width: 100%;
+}
+
+.cardImage > img {
+  width: 100%;
+  height: auto;
+}
+
+.cardInfo {
+  padding: 1.25rem 0.938rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.cardProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardProfileInner {
+  display: flex;
+  align-items: center;
+}
+
+.cardProfileInner > span {
+  color: #757575;
+  font-size: 0.65rem;
+  margin-bottom: 0.438rem;
+  font-weight: 500;
+}
+
+.cardProfileInner > img {
+  object-fit: contain;
+  margin-bottom: 9px;
+  margin-right: 6px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+}
+
+.star > span {
+  color: #757575;
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+}
+
+.star > img {
+}
+
+.cardHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cardHeading > h2 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 0.625rem 0 0.313rem 0;
+  background-color: unset;
+  color: unset;
+  text-decoration: none;
+}
+
+.cardHeading p {
+  color: #757575;
+  font-size: 0.625rem;
+  line-height: 1.6;
+}
+
+.cardPrice {
+  display: flex;
+  align-items: center;
+}
+
+.cardPrice span {
+  font-size: 0.563rem;
+  color: #757575;
+}
+
+.cardPrice strong {
+  margin: 0.438rem 0 0.438rem 0.5rem;
+}
+
+.cards .cardInfo > a {
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  width: 100%;
+  border: 0.086rem solid #000000;
+  background: transparent;
+  outline: none;
+  text-transform: capitalize;
+  padding: 0.438rem 0;
+  font-size: 0.813rem;
+  transition: 0.4s all;
+}
+
+.cards .cardInfo > a:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.form {
+  margin-top: 2rem;
+}
+
+.form > .inputsWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form > .inputsWrap > div {
+  width: 48%;
+}
+
+.form > .inputsWrap > div > span,
+.textArea > span {
+  font-size: 11px;
+
+  padding-bottom: 10px !important;
+}
+
+.textArea {
+  margin-top: 30px;
+}
+
+.textArea > textarea {
+  padding: 10px 10px;
+}

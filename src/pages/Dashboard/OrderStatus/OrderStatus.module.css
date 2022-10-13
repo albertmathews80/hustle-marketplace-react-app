@@ -1,0 +1,98 @@
+.container {
+    width: 76vw;
+    margin-bottom: 3vh;
+
+    /* border: 1px solid green; */
+}
+.topWrap {
+    display: flex;
+    justify-content: space-between;
+}
+.topWrapHeading {
+    font-weight: bold;
+    font-size: 20px;
+}
+.topWrapPara {
+    font-size: 15px;
+    color: gray;
+}
+.btnWrap {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 5vh;
+}
+.btn {
+    display: flex;
+    border: 1px solid black;
+    padding: 12px 25px;
+    margin-right: 1vw;
+    border-radius: 5px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btnActive:hover {
+    cursor: pointer;
+}
+.btnActive {
+    display: flex;
+    border: 1px solid white;
+    padding: 12px 25px;
+    margin-right: 1vw;
+    border-radius: 5px;
+    background-color: black;
+}
+.btnText {
+    color: black;
+    margin-right: 20px;
+    font-weight: 16px;
+}
+.btnTextActive {
+    color: white;
+    margin-right: 20px;
+    font-weight: 16px;
+}
+.number {
+    font-weight: 16px;
+    color: black;
+}
+.numberActive {
+    font-weight: 16px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tableheadingWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+.tableheadingWrap div {
+    color: gray;
+    font-size: 15px;
+}
+.tablecontentWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    align-items: center;
+}
+.tablecontentWrap div {
+    font-size: 15px;
+}
+.btnComplete {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+}
+.iconWrap {
+    display: flex;
+    justify-content: space-between;
+
+    width: 50px;
+}

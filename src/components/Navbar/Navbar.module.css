@@ -1,0 +1,86 @@
+.navbar {
+  padding: 10px 50px;
+}
+.navbar .nav {
+  display: flex;
+  justify-content: space-between;
+  /* color: #ffffff; */
+  color: black;
+  font-weight: 500;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.nav .navLogo > img {
+  height: 110px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.navLinks ul {
+  display: flex;
+  list-style-type: none;
+}
+.navLinks ul li {
+  margin-right: 85px;
+  cursor: pointer;
+}
+
+.navLinks ul li a {
+  padding: 5px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+.navLinks ul li a:hover {
+  font-weight: bold;
+}
+.navHome {
+  color: #ffffff !important ;
+  margin-right: 0px !important;
+}
+.profileColor {
+  color: #ffffff;
+}
+.navLinks ul li a.active {
+  border-bottom: 1px solid black;
+}
+.nav .navRight {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.profile span {
+  font-size: 12px;
+}
+.profile > img {
+  height: 40px;
+  object-fit: contain;
+  margin-top: 15px;
+}
+.navRight > img {
+  height: 20px;
+  object-fit: contain;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.navSelect {
+  color: #ffffff !important ;
+  margin-right: 0px !important;
+  border: none;
+  width: 75px;
+  cursor: pointer;
+
+}
+
+.navSelect > option {
+  color: #000000;
+  padding: 5px 0;
+}
+.navSelect > option:first-child {
+  display: none;
+}

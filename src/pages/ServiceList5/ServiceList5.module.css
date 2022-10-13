@@ -1,0 +1,190 @@
+.container {
+  margin-top: 50px;
+}
+
+.container hr {
+  margin: 30px 0 30px 0 !important;
+  color: #757575;
+}
+
+.containerWrap {
+  max-width: 850px;
+  margin: 60px auto;
+}
+
+.paymentWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.left {
+  width: 65%;
+}
+
+.right {
+  width: 28%;
+  height: 380px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.dateTime {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dateTime > div {
+  border: 1px solid black;
+  width: 48%;
+  padding: 30px 30px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.dateTime > div > span {
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.formDetails {
+  margin: 40px 0 10px 0;
+}
+
+.formDetails h2 {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.formDetails > div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.formDetails > div > span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.formDetails > div > span:first-child {
+  color: #757575;
+  font-weight: normal;
+  width: 18%;
+}
+
+.formDetails > div > .bookingChildPara {
+  width: 70%;
+}
+
+.right > h3 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.book1 > span {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.list1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: #757575;
+  margin: 10px 0;
+}
+
+.bill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  border-top: 2px solid #757575;
+  padding: 10px 0;
+  color: #757575;
+}
+
+.bill > span:last-child {
+  font-weight: 500;
+  color: #000000;
+}
+
+.checkBoxes > div {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.checkBoxes > div:nth-child(2) {
+  border-bottom: 2px solid #757575;
+  padding-bottom: 10px;
+}
+
+.checkBoxes > div > input {
+  width: 11px;
+  height: 11px;
+  margin-right: 10px;
+}
+
+.checkBoxes > div > span {
+  font-size: 11px;
+}
+
+.right > button {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 15px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.btnContainer {
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.btnContainer > button {
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 6px;
+  margin-left: 12px;
+  background-color: black;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+.btnContainer > button:first-child {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 500;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.imageContainer {
+  display: flex;
+}
+
+.imgContainer > img {
+  height: 8px;
+  object-fit: contain;
+  margin-right: 10px;
+}

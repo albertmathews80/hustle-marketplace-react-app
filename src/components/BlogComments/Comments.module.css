@@ -1,0 +1,22 @@
+.BlogContainer{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.commentProfile{
+    height: 100px;
+    object-fit: contain;
+}
+.commentProfile>img{
+    height: 100%;
+}
+.commentInfo{
+    margin-left: 1.9rem;
+}
+.commentInfo>span{
+    color: #757575;
+    font-size: 13px;
+}
+.commentInfo>p{
+    font-size: 13px;
+    margin-top: 5px;
+}

@@ -1,0 +1,42 @@
+.container {
+  margin-top: 45px;
+}
+
+.containerWrap {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+form > button {
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 5px 14px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.btnContainer > button {
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 6px;
+  margin-left: 12px;
+  background-color: black;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+.btnContainer > button:first-child {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 500;
+  border: 1px solid #000000;
+  cursor: pointer;
+}

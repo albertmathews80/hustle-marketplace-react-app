@@ -1,0 +1,16 @@
+//Blog Page
+//FAQ-
+//Invoice-
+//Profile-
+//Seller View-
+
+//Seller Profile 
+//Seller Profile | Edit Profile
+//Seller Profile | Order Status
+//Seller Profile | Password Change
+Service Details | (Create One) (Check in bottom)
+Service Details | Review (Create One)
+Service Details | About Seller (Create One)
+Use stepper form for registration(Components) (Umer)
+
+Figma Link: https://www.figma.com/file/L3DN9QcLVMgxER5x7lQvGQ/MarketPlace?node-id=0%3A1

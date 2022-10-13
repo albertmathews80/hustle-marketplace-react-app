@@ -1,0 +1,21 @@
+.containerWrap {
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+.containerWrap > h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17.8555px;
+}
+
+.containerWrap > h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.List {
+  display: flex;
+  justify-content: space-between;
+}

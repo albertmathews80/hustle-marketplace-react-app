@@ -1,0 +1,42 @@
+.container{
+    margin-top: 50px;
+}
+.containerWrap{
+    max-width: 700px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.containerWrap>button{
+    color: #ffffff;
+    background: black;
+    border: none;
+    outline: none;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    font-size: 12px;
+    padding: 9px 0;
+    cursor: pointer;
+}
+.btnContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    
+}
+.btnContainer>button{
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-left: 12px;
+    background-color: black;
+    padding: 4px 7px;
+    cursor: pointer;
+}
+.btnContainer>button:first-child{
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 500;
+    border: 1px solid #000000;
+    cursor: pointer;
+}

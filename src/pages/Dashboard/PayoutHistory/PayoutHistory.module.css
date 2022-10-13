@@ -1,0 +1,85 @@
+.container {
+    width: 76vw;
+    margin-bottom: 3vh;
+    /* 
+    border: 1px solid green; */
+}
+.cardSection {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+.cardWrap {
+    background-color: black;
+    width: 18vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.cardWrap:hover {
+    /* background-color: white; */
+    cursor: pointer;
+}
+
+.lightImage {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+}
+.cardTextWrap {
+    display: flex;
+    flex-direction: column;
+}
+.cardHeading {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cardPara {
+    color: white;
+    font-size: 14px;
+}
+.topWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+.topWrapHeading {
+    font-weight: bold;
+    font-size: 20px;
+}
+.topWrapPara {
+    font-size: 15px;
+    color: gray;
+}
+.tableheadingWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+.tableheadingWrap div {
+    color: gray;
+    font-size: 15px;
+}
+.tablecontentWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    align-items: center;
+}
+.tablecontentWrap div {
+    font-size: 15px;
+}
+.btnComplete {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.btnComplete:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}

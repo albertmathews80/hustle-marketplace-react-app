@@ -1,0 +1,198 @@
+.container {
+  width: 76vw;
+  margin-bottom: 3vh;
+  display: flex;
+  position: relative;
+  height: 95vh;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+/* Search Container */
+
+.form {
+  color: #555;
+  display: flex;
+  padding: 2px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 140px;
+  height: 30px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2%;
+}
+
+.form > button[type="submit"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent url("../../../images/Icon130search.png") no-repeat
+    center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.form > button[type="submit"]:hover {
+  opacity: 1;
+}
+.form > input[type="search"] {
+  border: none;
+  background: #ffffff;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+}
+
+.form>input[type="search"]::placeholder {
+  color: #bbb;
+}
+
+.searchContainer > input {
+  width: 118px;
+  height: 29px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  /* border: 1px solid red; */
+}
+.searchContainer > input::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.0422px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #757575;
+}
+
+/* Main Section */
+
+.main {
+  background: #ffffff;
+  box-shadow: 0px 3.91579px 3.91579px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 100%;
+  padding: 1% 5%;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+.headingContainer > div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 29px;
+  color: #000000;
+}
+.col1 {
+  flex: 1;
+}
+.col {
+  flex: 1;
+}
+
+.colLast {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rowContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  border-top: 1px solid #d9d9d9;
+}
+.rowContainer > div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 29px;
+  color: #757575;
+  flex: 1;
+  width: 100%;
+}
+.rowContainer > div > select {
+  border: 1px solid #757575;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  color: #757575;
+  height: 22px;
+  position: relative;
+}
+.select :first-child {
+  display: none;
+}
+.select > option {
+  background: #ffffff;
+  box-shadow: 0px 2.66667px 2.66667px rgba(0, 0, 0, 0.25);
+  border-radius: 3.33333px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  width: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  color: #000000;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+
+.pagination > button {
+  width: 2.188rem;
+  height: 2.188rem;
+  border: 0.063rem solid transparent;
+  background-color: #fff;
+  border-radius: 0.313rem;
+  font-size: 1.25rem;
+  box-shadow: 0 0.063rem 0.313rem rgba(0, 0, 0, 0.5);
+  transition: 0.4s all;
+}
+
+.pagination > button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #000000;
+}

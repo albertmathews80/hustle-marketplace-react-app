@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.innerContainer {
+  text-align: center !important;
+  padding: 30px 40px;
+}
+
+.innerContainer > h1 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 30px 0;
+  border-bottom: 1px solid #777777;
+}
+
+.innerContainer > p {
+  color: #757575;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.innerContainer > button {
+  padding: 13px 38px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.innerContainer > button:hover {
+  opacity: 0.9;
+}
+
+.otpInput {
+  display: flex;
+  margin: 40px 0;
+}
+
+.otpInput > Input {
+  width: 45px !important;
+  height: 45px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+}
+
+.otpInput > Input:focus {
+  border: 2px solid #000000;
+}

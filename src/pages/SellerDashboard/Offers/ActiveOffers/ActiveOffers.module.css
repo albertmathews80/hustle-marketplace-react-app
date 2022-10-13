@@ -1,0 +1,106 @@
+.container {
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.heading {
+  padding: 1% 2%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 29px;
+  color: #000000;
+}
+.headingRow {
+  display: flex;
+  padding: 1% 2% 1% 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 29px;
+  color: #757575;
+  border-bottom: 1px solid #D9D9D9; ;
+  border-top: 1px solid #D9D9D9; ;
+}
+
+
+.checkBox {
+  flex: 1;
+}
+input[type="checkbox"] {
+  accent-color: #ffffff;
+  cursor: pointer;
+}
+.secondColumn {
+  flex: 5;
+}
+.thirdColumn {
+  flex: 2;
+}
+.fourthColumn {
+  flex: 2;
+}
+.fifthColumn {
+  flex: 5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.bodyContainer{
+  margin-bottom: 3%;
+}
+
+.bodyRows {
+  display: flex;
+  padding: 1% 2% 1% 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 29px;
+  color: #757575;
+  border-bottom: 1px solid #D9D9D9; ;
+}
+/* Select Custom css */
+select{
+  border: 1px solid #757575;
+  border-radius: 7px;
+  background: transparent;
+}
+.myselect {
+  position: relative;
+  display: inline-block;
+}
+.myselect select {
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+  outline: none;
+}
+.myselect::after {
+  content: '';
+  position: absolute;
+  right: 4px;
+  top: 11px;
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #757575;
+  pointer-events: none;
+}
+.select>option{
+  position: relative;
+  right: 50px;
+  border-bottom: 1px solid #757575;
+}
+.bodyRows > .secondColumn {
+  display: flex;
+
+}
+.secondColumn > img {
+  margin-right: 3%;
+}

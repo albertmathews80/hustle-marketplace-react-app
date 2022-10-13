@@ -1,0 +1,36 @@
+.formContainer {
+  width: 100%;
+  height: 240px;
+}
+
+.formContainer .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formContainer .form div > p {
+  font-size: 80%;
+}
+
+.formContainer .form .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 0;
+}
+
+.formContainer .form .row > div {
+  width: 50%;
+}
+
+.formContainer .form .row > div > label {
+  font-size: 13px;
+}
+
+.formContainer .form .row:last-child {
+  gap: unset;
+  margin-bottom: unset;
+  width: 100%;
+}

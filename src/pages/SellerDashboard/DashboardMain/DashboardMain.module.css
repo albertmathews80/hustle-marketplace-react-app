@@ -1,0 +1,234 @@
+.container {
+  width: 90%;
+  margin-bottom: 3%;
+}
+
+/* Card Section */
+
+.cardSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid black;
+  background-color: black;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  margin-bottom: 1%;
+}
+
+.card:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+.cardIconContainer {
+}
+.lightImage {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+.cardTextWrap {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+}
+.cardHeading {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.cardPara {
+  color: white;
+  font-size: 14px;
+}
+
+/* Projects Section */
+.projectsSection {
+  margin-top: 5%;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.heading > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  color: #000000;
+}
+.heading > button {
+  width: 78px;
+  height: 35.18px;
+  border: 1.52941px solid #000000;
+  border-radius: 4.58824px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.1386px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.heading > button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+.project {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  align-items: center;
+  padding: 2% 1%;
+  margin-bottom: 2%;
+}
+.projectHeading {
+  /* flex: 1; */
+  width: 30%;
+  margin-right: 1%;
+  /* border: 2px solid red; */
+}
+
+.projectHeading > div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 3%;
+}
+.projectHeading > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5574px;
+  line-height: 21px;
+  color: #757575;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.keyValue {
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+}
+.keyValue > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.8767px;
+  line-height: 23px;
+  color: #757575;
+}
+.keyValue > div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.8767px;
+  line-height: 23px;
+  color: #000000;
+  margin-top: 4%;
+}
+.projectBtn > button {
+  border: 1.52941px solid #000000;
+  width: 84px;
+  height: 35px;
+  border-radius: 4.58824px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #000000;
+  background: #ffffff;
+  padding: 5%;
+  cursor: pointer;
+}
+
+.projectBtn > button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1100px) {
+  .right {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .projectHeading {
+    width: 100%;
+    margin-bottom: 1%;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .project {
+    margin-top: 5%;
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .projectHeading {
+    width: 100%;
+    margin-bottom: 1%;
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .keyValue {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1px;
+  }
+  .projectBtn {
+    align-self: center;
+  }
+}

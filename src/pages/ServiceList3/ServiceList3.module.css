@@ -1,0 +1,23 @@
+.containerWrap > center {
+  margin-top: 60px;
+}
+
+.containerWrap > center > img {
+  margin: 15px 0;
+}
+
+.containerWrap > center > p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+center > a > button {
+  font-size: 11px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 5px 14px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}

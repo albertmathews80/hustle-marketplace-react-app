@@ -1,0 +1,55 @@
+.container {
+  margin-top: 50px;
+}
+.containerWrap {
+  max-width: 700px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.containerWrap > .dropDownOption {
+  border: 1px solid #000000;
+  padding: 15px 35px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 13px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.containerWrap > .selectOption {
+  flex: 1;
+  /* border: 1px solid #000000; */
+  padding-left: 30px;
+}
+.selectOption > select {
+  border-radius: 5px;
+  background: #ffffff;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 8px;
+  border: 1px solid #000000;
+  font-weight: 500;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  outline: none;
+}
+form>input{
+  background:transparent!important;
+  height: 100%!important;
+}
+/* .containerWrap>div>span{
+    line-height: 1.8;
+    text-align: center;
+}
+.containerWrap>div:nth-child(1){
+    background-color: #000000;
+    color: #ffffff;
+}
+.containerWrap>div>span{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 12px;
+} */

@@ -1,0 +1,42 @@
+.main {
+    /* border: 2px Solid black; */
+}
+
+
+.data{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20%;
+}
+.info {
+    margin-top: 18%;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10;
+}
+
+.infoLeft {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #757575;
+}
+
+.infoRight {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 34%;
+}
+
+.infoLeft>div {
+    margin-bottom: 40px;
+}
+
+.infoRight>div {
+    margin-bottom: 40px;
+}
+

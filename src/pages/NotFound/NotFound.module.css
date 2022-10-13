@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 268px;
+  height: 255px;
+  background-image: url("../../images/error404.png");
+  margin-bottom: 30px;
+}
+
+.text {
+  height: 33px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 33px;
+  margin-bottom: 23px;
+}
+
+.button {
+  width: 90px;
+  height: 32px;
+  background: #000000;
+  border-radius: 3px;
+}
+
+.btnText {
+  width: 58px;
+  height: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 7.93678px;
+  line-height: 12px;
+  color: #ffffff;
+}

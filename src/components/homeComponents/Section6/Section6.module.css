@@ -1,0 +1,61 @@
+.container {
+  margin: 60px 0;
+}
+.Wrap {
+  max-width: 988px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 53px;
+  align-items: center;
+}
+.textContainer {
+  width: 40%;
+}
+.imageContainer {
+  width: 40%;
+  margin-left: auto;
+  height: 270px;
+}
+.imageContainer > img {
+  object-fit: contain;
+  height: 100%;
+}
+.textContainer h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.textContainer h2 > span {
+  color: #757575;
+}
+.textContainer p {
+  color: #757575;
+  font-size: 11px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.list span {
+  color: #757575;
+  font-size: 11px;
+  margin-left: 10px;
+}
+.textContainer button {
+  border: 1px solid #000000;
+  background-color: transparent;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-top: 20px;
+  outline: none;
+  transition: 0.4s all;
+}
+
+.textContainer button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #000000;
+}

@@ -1,0 +1,201 @@
+.container {
+  margin-top: 50px;
+}
+.containerWrap {
+  max-width: 850px;
+  display: flex;
+  margin: 60px auto;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+}
+.left {
+  width: 65%;
+  /* border: 1px solid black; */
+}
+.right {
+  width: 28%;
+  height: 260px;
+  padding: 20px;
+  margin: 190px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.serviceInfoText {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  margin: 60px 0 20px 0;
+}
+.serviceInfo > .serviceInfoText > h2 {
+  font-weight: 600;
+  font-size: 19px;
+}
+.serviceInfo > .serviceInfoText > h4 {
+  padding-top: 20px;
+}
+.serviceInfo > ul > div {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.serviceInfo > ul > div > a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  /* font-style: italic; */
+  font-size: 15px;
+}
+.serviceInfo > ul > div > li {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.serviceInfo > ul > div > li > span {
+  color: #757575;
+  font-size: 15px;
+  margin-left: 8px;
+}
+.serviceInfo > ul > div > li > span:last-child {
+  margin-left: 20px;
+}
+.serviceInfo > ul > div > li > span > em {
+  border: 1px solid #757575;
+  padding: 1px 17px;
+  font-style: normal;
+  font-size: 11px;
+  margin: 0 0 8px 4px;
+}
+.cardsContainer > h2 {
+  font-size: 19px;
+  margin: 40px 0 30px 0;
+}
+.cardWrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cardWrap > .cards {
+  border: 1px solid #757575;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: 48%;
+  margin-bottom: 20px;
+}
+.cardWrap > .cards > div {
+  display: flex;
+  /* border: 1px solid; */
+  align-items: center;
+  justify-content: space-between;
+}
+.cardWrap > .cards > div > h4 {
+  font-size: 13px;
+  width: 100%;
+  font-weight: 500;
+  /* border: 1px solid red; */
+}
+.cardWrap > .cards > div > b {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.cards > div > input {
+  /* border: 1px solid blue; */
+  width: 12px !important;
+  height: 12px;
+  border: 1px solid #757575;
+  border-radius: none !important;
+  margin-right: 8px;
+}
+.cards span {
+  color: #757575;
+  font-style: normal;
+  font-size: 13px;
+  padding-top: 13px;
+}
+.cards > div > span > em {
+  border: 1px solid #757575;
+  padding: 0px 12px;
+  font-style: normal;
+  font-size: 10px;
+  margin: 0 0 8px 4px;
+}
+.textContainer > h2 {
+  font-size: 19px;
+  margin: 30px 0 15px 0;
+}
+.textContainer > div {
+  display: flex;
+  align-items: center;
+}
+.textContainer > div > span {
+  font-size: 13px;
+  color: #757575;
+  line-height: 2.9;
+  margin-left: 10px;
+}
+.right > h3 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.book1 > span {
+  font-size: 11px;
+  font-weight: 600;
+}
+.list1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: #757575;
+  margin: 10px 0;
+}
+.bill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  border-top: 2px solid #757575;
+  padding: 10px 0;
+  color: #757575;
+}
+.bill > span:last-child {
+  font-weight: 500;
+  color: #000000;
+}
+.right > button {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  outline: none;
+  padding: 5px 0;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.btnContainer {
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.btnContainer > button {
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 6px;
+  margin-left: 12px;
+  background-color: black;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+.btnContainer > button:first-child {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 500;
+  border: 1px solid #000000;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.container {
+  margin-top: 100px;
+}
+.cardContainer {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.heading {
+  text-align: center;
+  margin-top: 70px;
+}
+.heading h2 {
+  font-size: 2rem;
+}
+.heading h2 > span {
+  color: #757575;
+}
+.heading p {
+  width: 20%;
+  margin: 15px auto;
+  color: #757575;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.cardWrap {
+  /* display: flex; */
+  max-width: 850px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.cardWrap .cards {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  border-radius: 4px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* .cardWrap .cards:hover {
+  background-color: #000000;
+  color: #ffffff;
+} */
+
+.cards > div > img {
+  width: 35px;
+  object-fit: contain;
+}
+.cards > div > img:hover {
+  color: #ffffff;
+}
+.cards h3 {
+  font-size: 14px;
+}
+.cards span {
+  font-size: 9px;
+}
+.ellipse {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.ellipse > img {
+  margin-right: 10px;
+}

@@ -1,0 +1,39 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.faqContainer {
+  /* border: 2px solid grey; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10;
+  padding-top: 40px;
+}
+
+.innerContainer {
+  /* border: 2px solid red; */
+  /* width: 200px; */
+  width: 45%;
+}
+
+.questionContainer {
+  display: flex;
+  padding: 15px;
+}
+
+.faqQuestion {
+  flex: 8;
+}
+
+.sign {
+  flex: 1;
+  cursor: pointer;
+}
+
+.answer {
+  display: flex;
+  padding: 5px 15px;
+  text-align: justify;
+}

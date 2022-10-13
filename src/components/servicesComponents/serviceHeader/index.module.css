@@ -1,0 +1,36 @@
+.containerWrap{
+    display: flex;
+}
+.textWrap>div{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+}
+.textWrap>div>img{
+ margin-left: 15px;
+ height: 14px;
+ object-fit: contain;
+}
+.textWrap>div>span{
+    margin-left: 5px;
+    font-size: 11px;
+    color: #757575;
+    font-weight: 500;
+}
+.imgWrap{
+    height: 105px; 
+}
+.imgWrap>img{
+    object-fit: contain;
+    height: 100%;
+    border-radius: 4px;
+}
+.textWrap>h2{
+    font-weight: normal;
+    font-size: 18px;
+    /* border: 1px solid red; */
+    /* width: 80%; */
+    font-weight: 500;
+    padding-left: 15px;
+}

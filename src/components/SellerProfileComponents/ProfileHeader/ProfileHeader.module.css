@@ -1,0 +1,10 @@
+.heading {
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,27 @@
+.container{
+    margin-top: 40px;
+}
+.containerWrap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.containerWrap>div{
+    display: flex;
+    align-items: center;
+}
+.containerWrap>div>.number{
+    padding: 2px 9px;
+    border-radius: 50%;
+    font-size: 14px;
+    border: 1px solid black;
+    margin-right:5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.containerWrap>div>.text{
+    color: #757575;
+    font-size: 13px;
+}

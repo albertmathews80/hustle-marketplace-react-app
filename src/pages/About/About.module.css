@@ -1,0 +1,305 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.cardContainer {
+  width: 100%;
+  margin: 1.875rem auto;
+
+  /* margin-top: 60px;
+  margin-bottom: 30px; */
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  border: 1px solid purple;
+}
+
+.imageContainer {
+  position: relative;
+  height: 230px;
+  margin-right: 50px;
+  border: 1px solid purple;
+
+}
+.imageContainer > img {
+  object-fit: contain;
+  height: 100%;
+  border: 1px solid purple;
+
+}
+.imageContainer .inner_div {
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  border: 1px solid purple;
+
+}
+.experience {
+  height: 50px;
+  width: 50px;
+  border: 1px solid purple;
+
+}
+.list {
+  display: flex;
+  align-items: center;
+  border: 1px solid blue;
+
+}
+.list span {
+  color: #757575;
+  font-size: 11px;
+  margin-left: 10px;
+  border: 1px solid skyblue;
+
+}
+.Wrap {
+  max-width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid skyblue;
+
+}
+.textContainer {
+  /* width: 45%; */
+  border: 1px solid skyblue;
+
+}
+.textContainer h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border: 1px solid skyblue;
+
+}
+.textContainer h2 > span {
+  color: #757575;
+  border: 1px solid skyblue;
+
+}
+.textContainer p {
+  color: #757575;
+  font-size: 11px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  border: 1px solid skyblue;
+
+}
+.heading {
+  text-align: center;
+  margin-top: 70px;
+  border: 1px solid skyblue;
+
+}
+.heading h2 {
+  font-size: 2rem;
+  border: 1px solid skyblue;
+
+}
+.heading h2 > span {
+  color: #757575;
+  border: 1px solid skyblue;
+
+}
+.heading p {
+  width: 20%;
+  border: 1px solid skyblue;
+
+  margin: 15px auto;
+  color: #757575;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.cardWrap {
+  display: flex;
+  border: 1px solid skyblue;
+  max-width: 988px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.cardWrap .cards {
+  width: 250px;
+  display: flex;
+  border: 1px solid skyblue;
+
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cards > div > img {
+  width: 35px;
+  object-fit: contain;
+  border: 1px solid skyblue;
+
+}
+.cards h3 {
+  font-size: 14px;
+  margin: 5px 0 10px 0;
+  border: 1px solid skyblue;
+
+}
+.cards span {
+  font-size: 8.5px;
+  text-align: center;
+  color: #757575;
+  line-height: 1.5;
+  border: 1px solid skyblue;
+
+}
+
+.cardWrap1 {
+  display: flex;
+  max-width: 988px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  border: 1px solid skyblue;
+
+}
+.cardWrap1 .cards1 {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 4px;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  border: 1px solid skyblue;
+
+  -webkit-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cards1 > div > img {
+  width: 35px;
+  object-fit: contain;
+  border: 1px solid skyblue;
+
+}
+.cards1 h3 {
+  font-size: 14px;
+  border: 1px solid skyblue;
+
+}
+.cards1 span {
+  font-size: 9px;
+  border: 1px solid skyblue;
+
+}
+.ellipse {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  border: 1px solid skyblue;
+
+}
+.ellipse > img {
+  margin-right: 10px;
+  border: 1px solid skyblue;
+
+}
+
+.Wrap2 {
+  max-width: 988px;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 53px;
+  align-items: center;
+  border: 1px solid skyblue;
+
+}
+.textContainer2 {
+  width: 40%;
+  border: 1px solid skyblue;
+
+}
+.imageContainer2 {
+  width: 40%;
+  margin-left: auto;
+  height: 270px;
+  border: 1px solid skyblue;
+
+}
+.textContainer2 h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border: 1px solid skyblue;
+
+}
+.textContainer2 h2 > span {
+  color: #757575;
+  border: 1px solid skyblue;
+
+}
+.textContainer2 p {
+  color: #757575;
+  border: 1px solid skyblue;
+
+  font-size: 11px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.list2 {
+  display: flex;
+  align-items: center;
+  border: 1px solid skyblue;
+
+}
+.list2 span {
+  color: #757575;
+  font-size: 11px;
+  border: 1px solid skyblue;
+
+  margin-left: 10px;
+}
+.textContainer2 button {
+  color: #ffffff;
+  background-color: black;
+  font-size: 10px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid skyblue;
+
+  border: none;
+}
+
+.imageContainer2 > img {
+  object-fit: contain;
+  border: 1px solid skyblue;
+
+  height: 100%;
+}
+
+.news {
+  /* display: flex; */
+  height: 50px;
+  justify-content: space-evenly;
+  border: 1px solid skyblue;
+
+  width: 100%;
+}
+/* .news > img {
+  width: 80px;
+} */
+.newsImg {
+  /* width: 600%; */
+  padding-left: 100px;
+  border: 1px solid skyblue;
+
+}

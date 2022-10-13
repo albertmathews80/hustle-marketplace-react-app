@@ -1,0 +1,173 @@
+.orderContainer {
+    width: 100%;
+    border: 2px solid black;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    padding: 5%;
+    margin-bottom: 8%;
+}
+
+.left {
+    flex: 2;
+}
+
+.orderName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+
+}
+
+.inner {
+    /* border: 2px solid grey; */
+    display: flex;
+    gap: 50%;
+    padding: 5% 0 0 0;
+}
+
+.innerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 16%;
+}
+
+.date {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+    color: #000000;
+    margin-bottom: 11%;
+
+}
+
+.grey {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #757575;
+}
+
+.innerRight {
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+
+}
+
+.orderNumber {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+
+}
+
+.orderRating {
+    display: flex;
+    gap: 5%;
+}
+
+.orderRating>img {
+    width: 15px;
+}
+
+
+.status {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10%;
+    padding-right: 5%;
+
+}
+
+.buttonOne {
+    width: 120px;
+    padding: 4%;
+    background: #000000;
+    border-radius: 3.96552px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-top: 10px;
+
+}
+
+.buttonOne:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.buttonTwo {
+    width: 110px;
+    padding: 4%;
+    background: #FFFFFF;
+    border-radius: 3.96552px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.buttonTwo:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.printButtons {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20px;
+    margin-right: 4%;
+}
+
+.printButtons>img {
+    width: 15px;
+    cursor: pointer;
+}

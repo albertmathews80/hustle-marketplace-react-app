@@ -1,0 +1,96 @@
+.container {
+  width: 76vw;
+  margin-bottom: 3vh;
+
+  /* border: 1px solid green; */
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+/* .sub_heading {
+  display: flex;
+  justify-content: center;
+} */
+.container button {
+  color: #ffffff;
+  background-color: black;
+  font-size: 10px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.cardContainer {
+  width: 100%;
+  margin-top: 20px;
+  /* margin: 1.875rem; */
+  margin-bottom: 6px;
+  display: flex;
+}
+.cardContainer > div > h4 {
+  margin-bottom: 30px;
+}
+.cardContainer > div > form {
+  display: flex;
+  justify-content: space-between;
+}
+.cardContainer > div > form input {
+  width: 45rem;
+  justify-content: space-between;
+  height: 2.188rem;
+  padding: 0 0.313rem;
+}
+.cardContainer > div > form p {
+  display: flex;
+  font-size: 80%;
+}
+
+.cardContainer > div > form select {
+  width: 45rem;
+  height: 2.188rem;
+  padding: 0 0.313rem;
+  outline: none;
+  font-size: 0.875rem;
+  border-radius: 0.205rem;
+  border: 0.041rem solid #757575;
+}
+.cardContainer > div > p {
+  font-size: 80%;
+}
+.cardContainer > div > textarea {
+  width: 45rem;
+  height: 32%;
+}
+.main {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.title {
+  margin-bottom: 20px;
+  width: 47rem;
+  margin-right: 19px;
+}
+.title input {
+  width: 45rem;
+  margin-bottom: 15px;
+}
+/* .title textarea {
+  width: 45rem;
+} */
+.title p {
+  font-size: 80%;
+}
+.description {
+  margin-bottom: 30px;
+}
+.description p {
+  font-size: 80%;
+}
+.description textarea {
+  width: 45rem;
+  height: 30%;
+}

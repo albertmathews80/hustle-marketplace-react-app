@@ -1,0 +1,99 @@
+.container {
+  width: 100%;
+  margin-bottom: 3vh;
+}
+.heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  color: #000000;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #d9d9d9;
+  margin-top: 3%;
+}
+.leftButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.offerButton {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  height: 23px;
+  font-size: 14.8767px;
+  line-height: 23px;
+  color: #000000;
+  background: #ffffff;
+   display: flex;
+  align-items: center;
+ 
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 3%;
+  cursor: pointer;
+}
+.offerButton:hover {
+  background: #000000;
+  color: #ffffff;
+}
+.clicked {
+  background: #000000;
+  color: #ffffff;
+}
+.unclicked {
+  color: #000000;
+  background: #ffffff;
+}
+
+
+.right {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.btn {
+  width: 150px;
+  height: 42px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 5%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Offer Container */
+
+.offerContainer {
+  margin-top: 2%;
+  /* background: #ffffff; */
+  /* border: 1px solid #000000; */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+/* .clicked:hover{
+  color: #000000;
+  background: #ffffff;
+} */
